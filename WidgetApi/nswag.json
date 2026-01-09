@@ -3,14 +3,14 @@
   "defaultVariables": null,
   "documentGenerator": {
     "fromDocument": {
-      "url": "../openapi.v2.yaml",
+      "url": "../openapi.v1.yaml",
       "output": null
     }
   },
   "codeGenerators": {
     "openApiToCSharpController": {
       "className": "{controller}",
-      "namespace": "WidApi.Generated",
+      "namespace": "WidgetApi.Generated",
       "generateModelValidationAttributes": true,
       "controllerStyle": "Abstract",
       "useActionResultType": true,
@@ -19,7 +19,7 @@
     },
     "openApiToCSharpClient": {
       "className": "Models",
-      "namespace": "WidApi.Generated.Models",
+      "namespace": "WidgetApi.Generated.Models",
       "generateDtoTypes": true,
       "output": "Generated/Models/GeneratedModels.cs"
     }
