@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WidgetApi.Tests", "WidgetApi.Tests\WidgetApi.Tests.csproj", "{CFB55141-2800-4D84-83DC-4455A79C47D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WidgetApi", "WidgetApi\WidgetApi.csproj", "{8408F9C8-E031-47A5-B072-4BE428099B1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFB55141-2800-4D84-83DC-4455A79C47D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB55141-2800-4D84-83DC-4455A79C47D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB55141-2800-4D84-83DC-4455A79C47D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB55141-2800-4D84-83DC-4455A79C47D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8408F9C8-E031-47A5-B072-4BE428099B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8408F9C8-E031-47A5-B072-4BE428099B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8408F9C8-E031-47A5-B072-4BE428099B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8408F9C8-E031-47A5-B072-4BE428099B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
