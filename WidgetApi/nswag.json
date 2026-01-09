@@ -1,0 +1,27 @@
+{
+  "runtime": "Net80",
+  "defaultVariables": null,
+  "documentGenerator": {
+    "fromDocument": {
+      "url": "../openapi.v2.yaml",
+      "output": null
+    }
+  },
+  "codeGenerators": {
+    "openApiToCSharpController": {
+      "className": "{controller}",
+      "namespace": "WidApi.Generated",
+      "generateModelValidationAttributes": true,
+      "controllerStyle": "Abstract",
+      "useActionResultType": true,
+      "generateOptionalParameters": true,
+      "output": "Generated/Controllers/GeneratedControllers.cs"
+    },
+    "openApiToCSharpClient": {
+      "className": "Models",
+      "namespace": "WidApi.Generated.Models",
+      "generateDtoTypes": true,
+      "output": "Generated/Models/GeneratedModels.cs"
+    }
+  }
+}
